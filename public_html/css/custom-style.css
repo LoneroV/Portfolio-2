@@ -1,13 +1,26 @@
 div {
     border-style: solid;
-    border-width: 1px;
-    border-color: grey;
-    padding: 1px;
+    border-width: 0px;
+    border-color: black;
+    padding: 2px;
+    margin: 0px;
 }
 
-.container {
+.container{
+    border-style: solid;
+    border-width: 0px;
     border-color: goldenrod;
+} 
+.row{
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
 }
-.row {
-    border-color: maroon;
+
+body{
+    background-size: cover;
+    text-align: center;
+    color: #f63c06;
+    font-size: 25px;
+    font-style: italic;
 }
