@@ -20,7 +20,11 @@ div {
 body{
     background-size: cover;
     text-align: center;
-    color: #f63c06;
+    color: #ac2925;
     font-size: 25px;
     font-style: italic;
+}
+
+#tech{
+    color: white;
 }
