@@ -1,3 +1,4 @@
+/* Here is where i customize my borders, i can change color, width, and style on top of margin and padding */
 div {
     border-style: solid;
     border-width: 0px;
@@ -6,17 +7,22 @@ div {
     margin: 0px;
 }
 
+/* Here is where i customize my container, i can change color, width, and style just like i did above. */
 .container{
     border-style: solid;
     border-width: 0px;
     border-color: goldenrod;
 } 
+
+/* Here is where i customize my row, i can change color, width, and style just as before. */
 .row{
     border-style: solid;
-    border-width: 1px;
+    border-width: 0px;
     border-color: grey;
 }
 
+/* Here is where i customize my body, this is where i can change  all the text, the text color, and style
+   on the website except for my technology page because of one minor visual detail */
 body{
     background-size: cover;
     text-align: center;
@@ -25,6 +31,12 @@ body{
     font-style: italic;
 }
 
+/* Here is where i had to change the the text color of my technology page, i did this because the text wasnt very readable
+   on the background image. */
 #tech{
     color: white;
+}
+
+jumbotron{
+    padding-bottom: 5px; 
 }

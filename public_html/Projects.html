@@ -8,12 +8,22 @@
         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
     </head>
     <body background="http://dinaalziab.files.wordpress.com/2013/07/captain-america-the-first-avenger-4fe203cd661b7.jpg">
-        <ul class="nav nav-tabs" role="tablist">
-            <li><a href="index.html">About Me</a></li>
-            <li class="active"><a>Projects</a></li>
-            <li><a href="Technology.html">Technology</a></li>
-        </ul>
+        <div>
         <div class="container">
+            <div class="col-xs-2">
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown">
+                  FREE BACON
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">About Me</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="Technology.html">Technology</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="Projects.html">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+            <div class="row">           
             <div>These are my projects that I have been creating in my Computer Science class.</div>
             <div class="row">
                 <div class="col-xs-3">
@@ -40,5 +50,8 @@
                 </div>
             </div>   
         </div>
+            </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
