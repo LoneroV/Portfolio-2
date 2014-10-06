@@ -26,13 +26,13 @@ body{
     text-align: center;
     color: #ac2925;
     font-size: 25px;
-    font-style: italic;
+    font-style: oblique;
 }
 
 /* Here is where i had to change the the text color of my technology page, i did this because the text wasnt very readable
    on the background image. I also put in the background images for all the pages and the Jumbotron. */
 #tech{
-    color: white;
+    color: red;
     background-image: url("http://wallpaper.pickywallpapers.com/blackberry-playbook/call-of-duty-black-ops-2.jpg");
 }
 
@@ -44,11 +44,11 @@ body{
 
 #Projects{
     background-image: url("http://dinaalziab.files.wordpress.com/2013/07/captain-america-the-first-avenger-4fe203cd661b7.jpg");
-    color: gold;
+    color: green;
 }
 
 #jumbotron{
     background-image: url("http://images.fashiontimes.com/data/images/full/6239/nba-logo.jpg?w=600");
     background-size: cover;   
-    color: black;
+    color: goldenrod;
 }
